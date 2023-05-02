@@ -11,9 +11,16 @@ struct ContentView: View {
     @StateObject private var controller = NetworkController()
     
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
         
             Text("Hello, \(controller.person.name)!")
+            
+            Text(controller.film.title)
+                .padding(.top)
+            Text(controller.film.releaseDate)
+            
+            Text(controller.film.openingCrawl)
+                .padding(.top)
         }
         .onAppear {
             controller.fetchPerson()
