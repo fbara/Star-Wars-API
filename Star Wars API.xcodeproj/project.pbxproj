@@ -11,6 +11,8 @@
 		AD61EB562A0185150076D0A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61EB552A0185150076D0A0 /* ContentView.swift */; };
 		AD61EB582A0185160076D0A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD61EB572A0185160076D0A0 /* Assets.xcassets */; };
 		AD61EB5C2A0185160076D0A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD61EB5B2A0185160076D0A0 /* Preview Assets.xcassets */; };
+		AD61EB632A0185790076D0A0 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61EB622A0185790076D0A0 /* NetworkController.swift */; };
+		AD61EB652A01864A0076D0A0 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD61EB642A01864A0076D0A0 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		AD61EB572A0185160076D0A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD61EB592A0185160076D0A0 /* Star_Wars_API.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Star_Wars_API.entitlements; sourceTree = "<group>"; };
 		AD61EB5B2A0185160076D0A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD61EB622A0185790076D0A0 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		AD61EB642A01864A0076D0A0 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				AD61EB532A0185150076D0A0 /* Star_Wars_APIApp.swift */,
 				AD61EB552A0185150076D0A0 /* ContentView.swift */,
+				AD61EB622A0185790076D0A0 /* NetworkController.swift */,
+				AD61EB642A01864A0076D0A0 /* Person.swift */,
 				AD61EB572A0185160076D0A0 /* Assets.xcassets */,
 				AD61EB592A0185160076D0A0 /* Star_Wars_API.entitlements */,
 				AD61EB5A2A0185160076D0A0 /* Preview Content */,
@@ -141,6 +147,8 @@
 			files = (
 				AD61EB562A0185150076D0A0 /* ContentView.swift in Sources */,
 				AD61EB542A0185150076D0A0 /* Star_Wars_APIApp.swift in Sources */,
+				AD61EB652A01864A0076D0A0 /* Person.swift in Sources */,
+				AD61EB632A0185790076D0A0 /* NetworkController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

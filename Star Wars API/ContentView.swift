@@ -8,14 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var controller = NetworkController()
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        
+            Text("Hello, \(controller.person.name)!")
         }
-        .padding()
+        .onAppear {
+            controller.fetchPerson()
+        }
     }
 }
 
